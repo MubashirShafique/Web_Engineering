@@ -6,14 +6,14 @@ A structured log of my weekly coursework, hands-on labs, and projects in Web Eng
 
 ##  Weekly Progress Log
 
-### 🔹 Week 01: Web Fundamentals & Network Analysis[cite: 1, 2]
-* **Environment Setup:** Configured core toolchain including Node.js, Git, and modern code formatters[cite: 1, 2].
-* **Web Architecture:** Documented client-server communication and request-response cycles[cite: 1].
-* **URL Breakdown:** Analyzed URL structure—protocol, domain, port, paths, query parameters, and fragments[cite: 1].
+### 🔹 Week 01: Web Fundamentals & Network Analysis
+* **Environment Setup:** Configured core toolchain including Node.js, Git, and modern code formatters
+* **Web Architecture:** Documented client-server communication and request-response cycles
+* **URL Breakdown:** Analyzed URL structure—protocol, domain, port, paths, query parameters, and fragments
 * **Network & DevTools:** 
-  * Inspected live network traffic and HTTP headers using browser Developer Tools[cite: 1, 2].
-  * Handled and analyzed standard HTTP status codes (`200 OK`, `204 No Content`, `301/307 Redirect`, `404`, `500`)[cite: 1, 2].
-  * Measured page performance, resource payloads, and load times[cite: 1, 2].
+  * Inspected live network traffic and HTTP headers using browser Developer Tools
+  * Handled and analyzed standard HTTP status codes (`200 OK`, `204 No Content`, `301/307 Redirect`, `404`, `500`)
+  * Measured page performance, resource payloads, and load times.
 
 
 ---
