@@ -16,6 +16,16 @@ A structured log of my weekly coursework, hands-on labs, and projects in Web Eng
   * Measured page performance, resource payloads, and load times.
 
 
+<br>
+
+### 🔹 Week 02: Semantic HTML & Web Accessibility
+* **Semantic Layouts:** Structured accessible web pages using semantic tags (`<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`).
+* **Multi-Page Navigation:** Built linked pages (Profile, Contact, and Blog) with clean navigation and standard anchor links.
+* **Forms & Accessibility:** Created a structured contact form with accessible labels, input fields, and native HTML5 elements instead of generic `div` containers.
+
+  
+<br>
+
 ---
 
 ##  Repository Navigation
