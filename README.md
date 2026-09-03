@@ -26,6 +26,13 @@ A structured log of my weekly coursework, hands-on labs, and projects in Web Eng
   
 <br>
 
+
+### 🔹 Week 03: CSS Fundamentals & The Cascade
+* **External Stylesheets:** Moved from inline styles to an external `styles.css` file for cleaner, maintainable code.
+* **The Box Model:** Practiced element spacing and layout using `content`, `padding`, `border`, and `margin`.
+* **Selectors & Pseudo-classes:** Targeted HTML elements using tag, class, ID, attribute, `:hover`, and `:nth-child` selectors.
+* **Cascade & Specificity:** Resolved styling conflicts and analyzed specificity rules (element vs. class vs. ID vs. inline) using browser DevTools.
+
 ---
 
 ##  Repository Navigation
