@@ -1,0 +1,25 @@
+p { color: green; }
+.intro { color: blue; }
+p.intro { color: purple; }
+#main p { color: navy; }
+
+
+
+
+/* p { color: green; }
+.intro { color: blue; }
+p.intro { color: purple; } */
+/* #main p { color: navy; } */
+
+
+
+/* p { color: green; }
+.intro { color: blue; } */
+/* p.intro { color: purple; } */
+/* #main p { color: navy; } */
+
+
+
+
+/* p { color: green; }
+p { color: crimson; } */

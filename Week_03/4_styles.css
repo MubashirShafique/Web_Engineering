@@ -1,0 +1,39 @@
+/* 1. Tag Selector */
+h1 {
+  color: navy;
+  font-size: 2rem;
+}
+
+/* 2. Class Selector */
+.note {
+  color: teal;
+  font-weight: bold;
+}
+
+/* 3. ID Selector */
+#alert {
+  background: #fff3cd;
+  padding: 8px;
+}
+
+/* 4. Attribute Selector */
+input[type="email"] {
+  border: 2px solid teal;
+  padding: 8px;
+}
+
+/* 5. Hover Pseudo-class */
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+/* 6. Odd Items Pseudo-class */
+li:nth-child(odd) {
+  background: #e3f2fd;
+}
+
+/* 7. Even Items Pseudo-class */
+li:nth-child(even) {
+  background: #fff3e0;
+}
