@@ -36,4 +36,4 @@ A structured log of my weekly coursework, hands-on labs, and projects in Web Eng
 ---
 
 ##  Repository Navigation
-Open each weekly folder (e.g., `Week_01/`) to view the exact lab tasks, detailed writeups, and supporting materials.
+Open each weekly folder (e.g., `Week_01/ ..`) to view the exact lab tasks, detailed writeups, and supporting materials.
