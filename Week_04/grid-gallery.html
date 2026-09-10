@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Grid gallery - Mobile First</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; padding: 1rem; margin: 0; }
+    .photo {
+      background: #ddd;
+      padding: 2rem 1rem;
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+
+    /* Base layout: 1 column (small mobile screens) */
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    /* Small screens (640px and up) */
+    @media (min-width: 640px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Medium screens (768px and up) */
+    @media (min-width: 768px) {
+      .gallery {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Large screens (1024px and up) */
+    @media (min-width: 1024px) {
+      .gallery {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* Extra large screens (1280px and up) */
+    @media (min-width: 1280px) {
+      .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Mobile-First Grid Gallery</h1>
+  <section class="gallery">
+    <div class="photo">1</div>
+    <div class="photo">2</div>
+    <div class="photo">3</div>
+    <div class="photo">4</div>
+    <div class="photo">5</div>
+    <div class="photo">6</div>
+  </section>
+</body>
+</html>

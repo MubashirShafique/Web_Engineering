@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layout Debug — Annotated Fixes</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; padding: 1.5rem; margin: 0; background: #f9f9f9; }
+    h2 { margin-top: 2rem; }
+
+    /* ==========================================================
+       ISSUE 1: Flex items overflowing the viewport horizontally
+       ----------------------------------------------------------
+       BROKEN:
+       .badge-row {
+         display: flex;
+         // flex-wrap: nowrap is the default, forcing items out of bounds
+       }
+
+       FIX:
+       Added `flex-wrap: wrap` so elements wrap to the next line 
+       on narrow viewports instead of breaking the page width.
+       ========================================================== */
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap; /* FIX APPLIED */
+      gap: 0.75rem;
+      background: #eee;
+      padding: 1rem;
+      border-radius: 6px;
+    }
+    .badge {
+      background: #7c4dff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+
+    /* ==========================================================
+       ISSUE 2: Absolute badge pinned to page body instead of card
+       ----------------------------------------------------------
+       BROKEN:
+       .card-container {
+         // Missing position: relative. The absolute badge will 
+         // escape the card and fly to the top-left of the entire HTML document.
+       }
+
+       FIX:
+       Added `position: relative` to `.card-container`. Now the badge 
+       with `position: absolute` anchors cleanly to the card's top-right corner.
+       ========================================================== */
+    .card-container {
+      position: relative; /* FIX APPLIED */
+      width: 280px;
+      background: #fff;
+      border: 1px solid #ccc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    .notification-badge {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background: #ff1744;
+      color: #fff;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.6rem;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Layout Debugging Lab</h1>
+
+  <h2>Fix 1: Flexbox Wrap</h2>
+  <div class="badge-row">
+    <div class="badge">HTML5</div>
+    <div class="badge">CSS Grid</div>
+    <div class="badge">Flexbox</div>
+    <div class="badge">Responsive Design</div>
+    <div class="badge">Media Queries</div>
+    <div class="badge">Mobile First</div>
+  </div>
+
+  <h2>Fix 2: Absolute Positioning Context</h2>
+  <div class="card-container">
+    <span class="notification-badge">NEW</span>
+    <h3>Notification Card</h3>
+    <p>The badge above anchors directly to this card because the parent has position: relative.</p>
+  </div>
+</body>
+</html>
