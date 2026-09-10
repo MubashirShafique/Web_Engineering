@@ -32,6 +32,13 @@ A structured log of my weekly coursework, hands-on labs, and projects in Web Eng
 * **The Box Model:** Practiced element spacing and layout using `content`, `padding`, `border`, and `margin`.
 * **Selectors & Pseudo-classes:** Targeted HTML elements using tag, class, ID, attribute, `:hover`, and `:nth-child` selectors.
 * **Cascade & Specificity:** Resolved styling conflicts and analyzed specificity rules (element vs. class vs. ID vs. inline) using browser DevTools.
+<br>
+
+### 🔹 Week 04: CSS Layouts & Responsive Design
+* **Flexbox & Grid:** Built structured galleries using Flexbox (1D) and CSS Grid (2D).
+* **Responsive Design:** Applied mobile-first media queries (`min-width`) for screens from 320px to desktop.
+* **CSS Positioning:** Placed elements using `static`, `relative`, `absolute`, `fixed`, and `sticky`.
+* **Hands-on Practice:** Created responsive cards, debugged layouts, and completed Flexbox Froggy & Grid Garden.
 
 ---
 
